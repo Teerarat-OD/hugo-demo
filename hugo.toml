@@ -1,6 +1,6 @@
 baseURL = ''
 languageCode = 'en-us'
-title = 'Opendream Site'
+title = 'Opendream Site Hugo'
 theme = "PaperMod"
 
 [menu]
