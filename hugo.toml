@@ -1,6 +1,6 @@
-baseURL = ''
+baseURL = 'https://poetic-klepon-320c57.netlify.app'
 languageCode = 'en-us'
-title = 'Opendream Site Hugo'
+title = 'Opendream Site'
 theme = "PaperMod"
 
 [menu]
