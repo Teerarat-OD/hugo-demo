@@ -1,0 +1,34 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Opendream Site'
+theme = "PaperMod"
+
+[menu]
+[[menu.main]]
+    identifier = 'categories'
+    name = 'Category'
+    pageRef = '/categories'
+    weight = 10
+[[menu.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 20
+[[menu.main]]
+    name = 'Archives'
+    pageRef = '/archives'
+    weight = 30
+
+[params]
+  ShowBreadCrumbs = true   
+  [params.homeInfoParams]
+    Title = "Hi opendreamer \U0001F44B"
+    Content = "Welcome to my blog"
+    [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/"
+    [[params.socialIcons]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com"
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
